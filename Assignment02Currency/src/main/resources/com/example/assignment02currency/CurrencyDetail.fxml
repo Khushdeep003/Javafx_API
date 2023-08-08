@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment02currency.CurrencyDetailController" stylesheets="@style.css">
+    <children>
+        <Label fx:id="currencyNameLabel" layoutX="204.0" layoutY="116.0" />
+        <Label fx:id="currencyCodeLabel" layoutX="204.0" layoutY="153.0" />
+        <Label fx:id="exchangeRateLabel" layoutX="204.0" layoutY="190.0" />
+        <Button fx:id="backButton" layoutX="193.0" layoutY="352.0" mnemonicParsing="false" onAction="#onBackButtonClicked" text="Back" />
+        <Button fx:id="homeButton" layoutX="324.0" layoutY="352.0" mnemonicParsing="false" onAction="#onHomeButtonClicked" text="Home" />
+    </children>
+</AnchorPane>

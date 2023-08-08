@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="homeSceneContainer" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment02currency.HomeSceneController" stylesheets="@style.css">
+    <children>
+        <VBox spacing="20" alignment="center" styleClass="background-container">
+            <Label text="Currency Converter" fx:id="titleLabel" styleClass="title" />
+            <Label text="Select the Currency from the ComboBox to view its details." styleClass="label" />
+            <ComboBox fx:id="currencyComboBox" promptText="Select Currency" styleClass="combo-box" />
+            <Button fx:id="searchButton" text="Search" styleClass="button" onAction="#onSearchButtonClicked" />
+            <Label fx:id="messageLabel" styleClass="label" />
+        </VBox>
+    </children>
+</StackPane>

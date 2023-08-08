@@ -1,0 +1,75 @@
+.root {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.background-container {
+    -fx-background-color: #007bff;
+}
+
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px;
+}
+
+#homeSceneContainer {
+    -fx-alignment: center;
+}
+
+.combo-box {
+    -fx-pref-width: 300px;
+    -fx-font-size: 16px;
+}
+
+.combo-box .list-cell {
+    -fx-font-size: 16px;
+}
+
+.combo-box .list-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #ffffff;
+}
+
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #007bff;
+    -fx-pref-width: 120px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 2, 0.5, 0, 0);
+    -fx-transition: background-color 0.2s;
+}
+
+.button:hover {
+    -fx-background-color: #f0f0f0;
+}
+
+.button:pressed {
+    -fx-background-color: #d9d9d9;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+}
+
+#messageLabel {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ff0000;
+}
+
+.scene {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.2, 0, 0);
+}
+
+.background-container {
+    -fx-background-color: #007bff, #0056b3;
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 0;
+}
+
+.button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
